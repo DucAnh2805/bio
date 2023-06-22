@@ -1,0 +1,259 @@
+.background {
+    background-image: url("https://images-ext-2.discordapp.net/external/hNlFXDapPofNDHikYyCG_sW7vqHvcn8IcRBdnIPxNvw/https/media.tenor.com/3aprEaHFOjMAAAAC/anime-aesthetic.gif?width=622&height=350");
+    position: fixed;
+    min-height: 100vh;
+    min-width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0;
+}
+.main {
+    z-index: 2;
+    position: relative;
+    width: 450px;
+    padding-bottom: 5px;
+    background-color: #ffffffa4;
+    border-radius: 25px;
+    margin-top: 5px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.74);
+}
+#cover {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i.ytimg.com/vi/kaR-4euDdos/maxresdefault.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#bg-cover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://i.ytimg.com/vi/kaR-4euDdos/maxresdefault.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    filter: opacity(0.6);
+}
+#avatar {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;q
+    -webkit-box-shadow: 0 0 50px 0 rgba(0,0,0,0.74);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.74);
+}
+#avatar img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    border: 2px solid #fff;
+}
+#name {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: "Lobster";
+}
+#name i {
+    color: #1877f2;
+    font-size: 25px;
+}
+.fad {
+    position: relative;
+    font-family: 'font awesome 5 duotone';
+    font-weight: 900;
+}
+.fa, .fas, .far, .fal, .fad, .fab {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}   
+html, body {
+    cursor: url(https://cdn.leanhduc.pro.vn/theme/theme-thong-tin-lien-he-version-2-0/images/mouse-f1.png),auto;
+}
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+* {
+    font-family: "Roboto";
+    padding: 0;
+    margin: 0;
+}
+.badge {
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #2d88ff;
+    padding: 0.5px 3px;
+    border-radius: 3px;
+    font-size: 10px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0;
+}
+.badge {
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    font-size: .75em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+}
+#bio {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Arial";
+    font-size: 12px;
+}
+.border {
+    position: relative;
+    width: 50%;
+    height: 2px;
+    background-color: rgb(138,138,138);
+}
+.border {
+    border: 1px solid #dee2e6!important;
+}
+#contact-text {
+    display: inline-block;
+    padding: 2px 15px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #ffffff;
+    background: rgb(45,136,255);
+    background: rgb(45,136,255);
+    background: -moz-linear-gradient(127deg,rgba(45,136,255,1) 0%,rgba(131,186,255,1) 100%);
+    background: -webkit-linear-gradient(127deg,rgba(45,136,255,1) 0%,rgba(131,186,255,1) 100%);
+    background: linear-gradient(127deg,rgba(45,136,255,1) 0%,rgba(131,186,255,1) 100%);
+    font-family: "Lobster";
+    cursor: default;
+}
+.facebook {
+    background: #2f4c8a;
+
+}
+.box {
+    height: 50px;
+    width: 75%;
+    margin: 5px auto;
+    border-radius: 20px;
+    background: rgb(47,76,138);
+    background: -moz-linear-gradient(127deg,rgba(42,100,173,1) 0%,rgba(45,136,255,1) 100%);
+    background: -webkit-linear-gradient(127deg,rgba(42,100,173,1) 0%,rgba(45,136,255,1) 100%);
+    background: linear-gradient(127deg,rgba(42,100,173,1) 0%,rgba(45,136,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a64ad",endColorstr="#2d88ff",GradientType=1);
+    -webkit-box-shadow: 0 0 50px 0 rgba(0,0,0,0.74);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.74);
+    z-index: 1;
+    transition: all 250ms;
+}
+a{
+    text-decoration: none;
+    font-family: "Lobster";
+    font-size:30px ;
+    text-align: center;
+    
+}
+.instagram {
+    background: #fc466b;
+    background: -webkit-linear-gradient(to right,#3f5efb,#fc466b);
+    background: linear-gradient(to right,#3f5efb,#fc466b);
+}
+.discord{
+    background: #404eed;
+    background: -webkit-linear-gradient(to right,#404eed,#efe5e7);
+    background: linear-gradient(to right,#404eed,#ebe3e5);
+}
+button{
+    text-decoration: none;
+    font-family: "Lobster";
+    font-size:30px ;
+    text-align: center;
+    
+}
+.twitter{
+    background: #404eed;
+    background: -webkit-linear-gradient(to right,#404eed,#efe5e7);
+    background: linear-gradient(to right,#404eed,#ebe3e5);
+}
